@@ -1,0 +1,16 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+background-image: url("logo.jpg");
+}
+.footer{
+    position:inherit;
+    left: 0;
+    bottom: auto;
+    width:auto;
+    height: auto;
+    background-color: rgb(125, 84, 238);
+    color: azure;
+    text-align: center;
+}

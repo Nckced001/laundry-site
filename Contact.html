@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+    <head><title>laundry</title>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet"type="text/css" href="style.css"/>
+        <link rel="stylesheet" href="css/all.min.css"/>
+        <!--bootsrap file-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <style>
+          body{
+                background-image:url("pg.jpg")
+            }
+            h4{
+                text-align: center;
+                size: 10px;
+                color: blue;
+                            }
+           h6{
+text-align: right
+            }
+           .button{
+                align-self: center;
+                margin: 4px 2px;
+                cursor: pointer;
+                display: inline-block;
+                
+            }
+            .p
+            {
+            text-align:center;}
+            
+    
+        </style>
+    </head>
+<body>
+    
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+       <div class="container px-lg-5">
+           <a class="navbar-brand" href="#!" style=" font-style: oblique;font-weight: bold;"><i class="bi bi-universal-access-circle"style="font: size 60px;"></i> KIC LAUNDRY SERVICES<br><h6 style="color: green; font-style: italic;">Keeping it clean</h6></h6></a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                   <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html"style="color:blue ;">Home</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#!">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"style="color:blue ;">
+                        Services
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">cleaning Services</a></li>
+                        <li><a class="dropdown-item" href="#">House Clean-Up</a></li>
+                        <li><a class="dropdown-item" href="#">On_Site laundry</a></li>
+                        <li><a class="dropdown-item" href="#">contract laundry</a></li>
+                        <li><a class="dropdown-item" href="#">Steam Ironing and Pressing</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="Services.html"style="color:yellow ;">Price List</a></li>
+                        <li><a class="dropdown-item" href="#"style="color:yellow ;">Pay Online</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </a></li>
+                   <li class="nav-item"><a class="nav-link" href="Abt.html"style="color:blue ;">About</a></li>
+                   <li class="nav-item"><a class="nav-link" href="Contact.html"style="color:blue ;">Contact</a></li>
+               </ul>
+           </div>
+        </div>
+   </nav>
+   <h4>Get in contact with our laundry <br>services</h4>
+<br>
+   <div class="p">
+   <p style="background-color: rgb(219, 210, 159);">Are you intrested in our services and wouled like assistance?<br>
+send us an email or just make call.</p></div>
+<h6>please feel free to use are contact form <br>and we will get back to you.</h6>
+<div class="button">
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">please click to fill<br> our contact form</button>
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="email-name" class="col-form-label">Email:</label>
+            <input type="text" class="form-control" id="email-name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="col-form-label">Full Name:</label>
+            <input type="text" class="form-control" id="email">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="col-form-label">Phone number:</label>
+            <input type="number" class="form-control" id="email">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="col-form-label">City:</label>
+            <input type="text" class="form-control" id="email">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="col-form-label">Zip:</label>
+            <input type="number" class="form-control" id="email">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container text-align">
+    <br><h2>Contact Us at..</h2>
+    <i class="bi bi-telephone"style="color:green;font: size 20px;"> : +237 673 233 445</i><br>
+    <i class="bi bi-envelope"style="color:blue;font: size 20px;"> : KIClaundry@gmail.com</i><br>
+    <i class="bi bi-geo-alt"style="color:red;font-size:20px;">: Bamenda.Cameroon</i>
+</div>
+
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+      <p>our Services</p>
+      <ul>
+                         <li><a class="dropdown-item" href="#">cleaning Services</a></li>
+                          <li><a class="dropdown-item" href="#">House Clean-Up</a></li>
+                          <li><a class="dropdown-item" href="#">On_Site laundry</a></li>
+                          <li><a class="dropdown-item" href="#">contract laundry</a></li>
+                          <li><a class="dropdown-item" href="#">Steam Ironing and Pressing</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="Services.html"style="color:yellow ;">Price List</a></li>
+                          <li><a class="dropdown-item" href="#"style="color:yellow ;">Pay Online</a></li>
+                        </ul>
+                        </div>
+                        </div>
+                      </div>
+  <p>Copyright &copy; Your Website 2022</p>
+</div>
+   <i class="fab fa-accessible-icon"></i>
+
+   <i class="fas fa-align-justify"></i>
+
+   <script src="js/all.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
